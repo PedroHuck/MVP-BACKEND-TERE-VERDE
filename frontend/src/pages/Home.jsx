@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { atracoesService, eventosService } from "../services/api.js";
 import { AtracaoCard, EventoCard } from "../components/Cards.jsx";
 
-const HERO = "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=1920";
+const HERO = "https://imgmd.net/images/v1/guia/2175012/dedo-de-deus.jpg";
 
 function Section({ title, children }) {
   return (
