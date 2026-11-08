@@ -41,7 +41,7 @@ export default function Home() {
       </section>
       <section className="mx-auto mt-16 grid max-w-6xl gap-8 px-4 md:grid-cols-2">
         <h2 className="text-3xl">Uma cidade serrana cercada de natureza protegida</h2>
-        <p className="opacity-80">A área urbana de Teresópolis fica a 869 metros de altitude, abraçada por três unidades de conservação. (Texto de exemplo — edite com a história real do circuito.)</p>
+        <p className="opacity-80">A área urbana de Teresópolis fica a 869 metros de altitude, abraçada por três unidades de conservação.</p>
       </section>
       {trilhas.length > 0 && <Section title="Trilhas">{trilhas.map((a) => <AtracaoCard key={a.id} a={a} />)}</Section>}
       {cachoeiras.length > 0 && <Section title="Cachoeiras">{cachoeiras.map((a) => <AtracaoCard key={a.id} a={a} />)}</Section>}
