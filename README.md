@@ -7,9 +7,57 @@
 ## Escolha da situação problema 
 Plataforma de Ecoturismo do Circuito Terê Verde (Teresópolis)
 
-## Descrição sucinta do MVP 
-Terê Verde Online — plataforma web de ecoturismo do Circuito Terê Verde (Teresópolis). O público navega por atrações e eventos da região com busca, filtros e páginas de detalhe; um administrador autenticado cadastra, edita e controla a disponibilidade desses itens. Entregue em pacote local FastAPI + SQLite + React. Sem pagamentos, IA ou redes sociais — MVP de exibição e gestão de conteúdo com dados fictícios para edição. 
+## Descrição sucinta do MVP
+
+- Terê Verde Online — plataforma web de ecoturismo do Circuito Terê Verde (Teresópolis). O público navega por atrações e eventos da região com busca, filtros e páginas de detalhe; um administrador autenticado cadastra, edita e controla a disponibilidade desses itens. Entregue em pacote local FastAPI + SQLite + React. Sem pagamentos, IA ou redes sociais — MVP de exibição e gestão de conteúdo com dados fictícios para edição.
+ 
 ---
+
+## Escopo:
+
+# Terê Verde Online — Escopo do MVP
+
+## Dentro do Escopo:
+
+- Site público (sem login)
+- Página inicial com apresentação do circuito e destaques
+- Busca por texto e filtros por categoria e disponibilidade
+- Página de detalhe de cada atração (foto, status, tipo, localização, dificuldade, descrição)
+- Página de detalhe de cada evento (foto, status, período, vagas, descrição, local)
+- Layout responsivo (celular, tablet, computador)
+- Painel administrativo (com login)
+
+- Login com e-mail e senha e mensagem de erro
+- Acesso só para quem tem papel de admin
+- Criar, ver, editar e excluir atrações
+- Criar, ver, editar e excluir eventos
+- Excluir com confirmação
+- Ligar/desligar a disponibilidade de cada registro
+- Validar campos obrigatórios e datas
+- Sair da conta
+- API (versão local)
+
+- Documentação interativa em /docs
+- Login devolvendo token
+- Listar e ver atrações e eventos (público)
+- Criar, editar, excluir e mudar disponibilidade (só com token de admin)
+- Senhas com hash e admin criado automaticamente
+- Dados fictícios de exemplo já cadastrados 
+
+## Fora do Escopo:
+
+- Pagamentos, reservas ou ingressos
+- Cadastro de visitante (só admin tem login)
+- Recuperação de senha por e-mail
+- Aplicativo nativo (iOS/Android)
+- Recomendações por IA
+- Integração com redes sociais
+- Upload de fotos (imagens só por URL)
+- Mapas, rotas ou GPS
+- Multi-idioma
+- Histórico de alterações
+- Relatórios ou métricas de visitas
+- Notificações por e-mail ou push 
 
 ## Como rodar o projeto (passo a passo)
 
